@@ -1,0 +1,137 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.date-filters {
+  margin-bottom: 15px;
+}
+
+.date-filters button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.date-filters button:hover {
+  background-color: #45a049;
+}
+
+.custom-date-range {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.call-table th,
+.call-table td {
+  padding: 10px;
+  border-top: 1px solid #eaf0fa;
+  text-align: left;
+}
+
+.call-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.call-table {
+  width: 90%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.call-table_head th {
+  border: none !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.72px;
+  color: #5e7793;
+  letter-spacing: 0%;
+  background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.call-table_head tr {
+  background-color: #ffffff;
+}
+
+.call-table_row {
+  height: 65px;
+}
+
+.person-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.call-table_time {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #122945;
+}
+
+.call-table_phone {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #122945;
+}
+
+.call-table_sourses {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #5e7793;
+}
+
+.call-table_rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 26px;
+  gap: 10px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  border-radius: 4px;
+  border-width: 1px;
+  white-space: nowrap;
+}

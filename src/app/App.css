@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../../public/fonts/SFPRODISPLAYREGULAR.OTF") format("OTF");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  background-color: #f1f4f9;
+}
+
+.App{
+  width: 100%;
+
+}

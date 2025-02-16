@@ -1,0 +1,32 @@
+.picker_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap:8px;
+  cursor: pointer;
+}
+
+.picker_container_text{
+    color: #002CFB
+}
+
+
+
+.calendar svg {
+  fill: #adbfdf; /* Начальный цвет */
+  transition: fill 0.3s ease-in-out; /* Плавный переход */
+}
+
+.calendar:hover svg {
+  fill: #002CFB; /* Зеленый цвет при hover */
+}
+
+.calendar_left{
+  margin-right: 12px;
+}
+
+.calendar_right{
+  margin-left: 12px;
+}
