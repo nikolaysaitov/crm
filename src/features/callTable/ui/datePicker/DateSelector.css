@@ -4,29 +4,102 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  gap:8px;
+
   cursor: pointer;
 }
 
-.picker_container_text{
-    color: #002CFB
+.picker_container_text {
+  color: #002CFB;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
 }
 
 
 
 .calendar svg {
-  fill: #adbfdf; /* Начальный цвет */
-  transition: fill 0.3s ease-in-out; /* Плавный переход */
+  fill: #adbfdf;
+  /* Начальный цвет */
+  transition: fill 0.3s ease-in-out;
+  /* Плавный переход */
 }
 
 .calendar:hover svg {
-  fill: #002CFB; /* Зеленый цвет при hover */
+  fill: #002CFB;
+  /* Зеленый цвет при hover */
 }
 
-.calendar_left{
+.calendar_left {
   margin-right: 12px;
 }
 
-.calendar_right{
+.calendar_right {
   margin-left: 12px;
+}
+
+
+
+.dropdown-container {
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+}
+
+.dropdown-header {
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #899CB1
+}
+
+.dropdown-menu li {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.dropdown-menu li:hover {
+  background: #DEE4FF;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: -webkit-fill-available;
+}
+
+.picker_container_text_active {
+  color: #122945
+}
+
+.custom-date-picker {
+  border: none !important;
+  width: 58px;
+  color: #899CB1
+}
+
+.custom-date-range {
+  width: 100%;
+
 }
