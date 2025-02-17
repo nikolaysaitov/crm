@@ -12,6 +12,8 @@ import { TypeCall } from "../model/types";
 import Down from "./filterTypes/icons/Down";
 import ClearFilters from "./filterTypes/icons/ClearFilters";
 import Player from "./audio/Player";
+import Left from "./datePicker/icons/Left";
+import Right from "./datePicker/icons/Right";
 interface SelectPeriodProps {
   name: string;
   value: string;
@@ -178,13 +180,15 @@ export default function CallTable() {
       <>
         {" "}
         <div className="pagination">
-          <button onClick={() => handlePageChange(page - 1)} disabled={page === 1}>
-            Предыдущая
-          </button>
+          <div className="pagination_arrow" onClick={() => handlePageChange(page - 1)}>
+            <Left />
+          </div>
+
           <span>Страница {page}</span>
-          <button onClick={() => handlePageChange(page + 1)} disabled={calls?.results?.length < limit}>
-            Следующая
-          </button>
+
+          <div className="pagination_arrow" onClick={() => handlePageChange(page + 1)}>
+            <Right />
+          </div>
         </div>
       </>
     </div>

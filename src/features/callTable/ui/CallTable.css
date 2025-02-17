@@ -174,3 +174,12 @@
   width: 360px;
  
 }
+.pagination{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.pagination_arrow{
+  cursor: pointer;
+}
